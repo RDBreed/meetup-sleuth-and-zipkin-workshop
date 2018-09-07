@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false">
-  <springProperty name="APP_NAME" value="spring.application.name" />
+  <springProperty name="APP_NAME" source="spring.application.name" />
   <springProperty name="LOGSTASH_HOST" source="elk.remote.address"/>
   <include resource="default-logback.xml"/>
 </configuration>
