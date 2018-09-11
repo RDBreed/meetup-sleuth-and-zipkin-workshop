@@ -53,6 +53,7 @@
       <artifactId>meetup-client</artifactId>
       <version>1.0.0</version>
       <systemPath>${basedir}/lib/meetup-client-1.0.0.jar</systemPath>
+      <scope>system</scope>
     </dependency>
 
     <dependency>
